@@ -1,46 +1,62 @@
 {
   "meta": {
-    "title": "BrandName | Kurumsal Çözüm Ortağınız",
-    "description": "İşletmeniz için en iyi dijital çözümler ve profesyonel hizmetler."
+    "title": "PhD's Veteriner Kliniği | Uzm.Dr. Soner Çağatay",
+    "description": "PhD's Veteriner Kliniği, Uzm.Dr. Soner Çağatay tarafından yönetilen, modern ve güvenilir veteriner hizmetleri sunan bir kliniktir. Evcil hayvanlarınızın sağlığı ve mutluluğu için en iyi bakımı sağlamak için buradayız."
   },
   "general": {
-    "brandName": "BrandName",
-    "whatsappNumber": "905555555555",
-    "phone": "+90 (555) 000 00 00",
+    "brandName": "PhD's Veteriner Kliniği",
+    "whatsappNumber": "905332264773",
+    "phone": "+90 (533) 226 47 73",
     "email": "info@brandname.com",
-    "address": "Örnek Mahallesi, Teknoloji Caddesi No:1, 34000 Şehir/Ülke",
+    "address": "Liman, 13. Sk. No:8/1, 07130 Merkez/Antalya, Türkiye",
     "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.664402324638!2d28.978358915414844!3d41.00823797929987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab9e7a7777c43%3A0x4c76cf3dcc8b330d!2sAyasofya!5e0!3m2!1str!2str!4v1631526437542!5m2!1str!2str"
   },
   "social": {
-    "instagram": "https://instagram.com/",
+    "instagram": "https://www.instagram.com/sonercagatayofficial/",
     "facebook": "https://facebook.com/",
-    "googleMaps": "https://maps.google.com/"
+    "googleMaps": "https://www.google.com/maps/place/PhD's+Veteriner+Klini%C4%9Fi+Antalya+Uzm.Dr.+Soner+%C3%87a%C4%9Fatay/@36.8533637,30.612941,17z/data=!3m1!4b1!4m6!3m5!1s0x14c393244cb1327f:0xb1c293ef9f3f841b!8m2!3d36.8533637!4d30.6155159!16s%2Fg%2F11ys20xnr4?entry=ttu&g_ep=EgoyMDI2MDIwOS4wIKXMDSoASAFQAw%3D%3D"
   },
   "hero": {
-    "title": "İşletmeniz İçin <br><span class='text-primary'>Yenilikçi Çözümler</span>",
-    "subtitle": "Müşterilerinize en iyi deneyimi sunmak için modern, hızlı ve güvenilir altyapımızı keşfedin. Sizin için buradayız.",
+    "title": "Dostlarımız İçin <br><span class='text-primary'>En İyisi</span>",
+    "subtitle": "PhD's Veteriner Kliniği, Uzm.Dr. Soner Çağatay tarafından yönetilen, modern ve güvenilir veteriner hizmetleri sunan bir kliniktir. Evcil hayvanlarınızın sağlığı ve mutluluğu için en iyi bakımı sağlamak için buradayız.",
     "ctaText": "Hizmetleri Keşfet",
     "ctaLink": "#services"
   },
   "services": {
     "title": "Neler Sunuyoruz?",
-    "subtitle": "İhtiyaçlarınıza özel profesyonel hizmet paketlerimiz.",
+    "subtitle": "İhtiyaçlarınıza özel profesyonel hizmetlerimiz.",
     "items": [
       {
-        "icon": "🚀",
-        "title": "Hızlı Entegrasyon",
-        "desc": "Mevcut sistemlerinize tam uyumlu, kurulum gerektirmeyen hızlı çözümler."
+        "icon": "💉",
+        "title": "Aşılar ve Enjeksiyonlar",
+        "desc": "Aşılar ve Enjeksiyonlar açıklama."
       },
       {
-        "icon": "🛡️",
-        "title": "Güvenli Altyapı",
-        "desc": "Verileriniz endüstri standartlarında şifrelenir ve güvenle saklanır."
+        "icon": "🧬",
+        "title": "Jinekolojik Operasyonlar ve Uygulamalar",
+        "desc": "Jinekolojik Operasyonlar ve Uygulamalar açıklama."
       },
       {
-        "icon": "💡",
-        "title": "Yaratıcı Stratejiler",
-        "desc": "Markanızı öne çıkaracak modern tasarım ve pazarlama stratejileri."
+        "icon": "🩺",
+        "title": "Cerrahi Operasyonlar ve Uygulamalar",
+        "desc": "Cerrahi Operasyonlar ve Uygulamlar açıklama."
+      },
+      {
+        "icon": "🩹",
+        "title": "Dahili Hastalıklar ve Tedavileri",
+        "desc": "Dahili Hastalıklar ve Tedavileri açıklama."
+      },
+      {
+        "icon": "🐾",
+        "title": "Küçük Evcil Hayvan Bakımı",
+        "desc": "Küçük Evcil Hayvan Bakımı açıklama."
+      },
+      {
+        "icon": "🐕",
+        "title": "Büyük Evcil Hayvan Bakımı",
+        "desc": "Büyük Evcil Hayvan Bakımı açıklama."
       }
+     
     ]
   },
   "reviews": {
@@ -48,25 +64,25 @@
     "subtitle": "Bizi tercih eden değerli müşterilerimizin deneyimleri.",
     "items": [
       {
-        "name": "Ahmet Yılmaz",
-        "comment": "Hizmet kalitesi gerçekten çok yüksek. Beklentimin üzerinde bir sonuç aldım, ekibe teşekkürler.",
+        "name": "Betül Bayraktar",
+        "comment": "Kedimiz Fındık sayesinde yollarımız kesişti Soner Bey ile. Güler yüzlü bir hekim ve işinde de oldukça başarılı bir cerrahtır.İlgi ve alakalarından dolayı teşekkür ederiz.Gözünüz kapalı gidebileceğiniz ve güvenebileceğiniz Veteriner Kliniğidir.Herkese tavsiye ederim ☺️",
         "stars": 5
       },
       {
-        "name": "Ayşe Demir",
-        "comment": "Çok ilgili ve profesyonel bir işletme. Sorunlarımıza hızlıca çözüm buldular.",
+        "name": "Shoaib Husnain",
+        "comment": "Dr Soner is the best orthopedic and neuro surgeon.",
         "stars": 5
       },
       {
-        "name": "Mehmet Kaya",
-        "comment": "Kesinlikle tavsiye ediyorum. Fiyat/performans açısından bölgedeki en iyisi.",
-        "stars": 4
+        "name": "Abidin Yılmaz",
+        "comment": "Bazı meslekler bilgi ister, bazıları vicdan. Soner Çağatay’da ikisi de fazlasıyla mevcut.",
+        "stars": 5
       }
     ]
   },
   "contact": {
     "title": "İletişime Geçin",
-    "subtitle": "Projeleriniz veya sorularınız için bize ulaşmaktan çekinmeyin.",
+    "subtitle": "Sorularınız için bize ulaşmaktan çekinmeyin.",
     "workingHours": {
       "title": "Çalışma Saatleri",
       "weekdays": "09:00 - 18:00",
