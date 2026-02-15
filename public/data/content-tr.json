@@ -82,8 +82,8 @@
     "subtitle": "Sorularınız için bize ulaşmaktan çekinmeyin.",
     "workingHours": {
       "title": "Çalışma Saatleri",
-      "weekdays": "09:00 - 18:00",
-      "weekend": "10:00 - 15:00"
+      "weekdays": "10:00 - 20:00",
+      "weekend": "13:00 - 19:00"
     }
   }
 }
