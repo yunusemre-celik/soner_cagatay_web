@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Ветеринарная клиника PhD's | Специалист доктор Сонер Чагатай",
-    "description": "Хирургия, ортопедия и терапия под руководством специалиста доктора Сонера Чагатая в районе Лиман, Анталья. Экспертная ветеринарная помощь для ваших питомцев."
+    "description": "Хирургические, ортопедические и терапевтические услуги под руководством специалиста доктора Сонера Чагатая в порту Анталии. Квалифицированная ветеринарная помощь для ваших питомцев."
   },
   "general": {
     "brandName": "Ветеринарная клиника PhD's",
@@ -15,7 +15,8 @@
   "social": {
     "instagram": "https://instagram.com/sonercagatayofficial/",
     "facebook": "https://facebook.com/Dr.SonerCagatay/?locale=tr_TR",
-    "googleMaps": "https://maps.google.com/?q=PhD's%20Veteriner%20Klini%C4%9Fi%20Antalya%20Uzm.Dr.%20Soner%20%C3%87a%C4%9Fatay"
+    "googleMaps": "https://maps.google.com/?q=PhD's%20Veteriner%20Klini%C4%9Fi%20Antalya%20Uzm.Dr.%20Soner%20%C3%87a%C4%9Fatay",
+    "googleScholar": "https://scholar.google.com/citations?user=xSkInw0AAAAJ&hl=en"
   },
   "navbar": {
     "home": "Главная",

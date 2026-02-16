@@ -15,7 +15,8 @@
   "social": {
     "instagram": "https://www.instagram.com/sonercagatayofficial/",
     "facebook": "https://www.facebook.com/Dr.SonerCagatay/?locale=tr_TR",
-    "googleMaps": "https://www.google.com/maps/place/PhD's+Veteriner+Klini%C4%9Fi+Antalya+Uzm.Dr.+Soner+%C3%87a%C4%9Fatay/@36.8533637,30.612941,17z/data=!3m1!4b1!4m6!3m5!1s0x14c393244cb1327f:0xb1c293ef9f3f841b!8m2!3d36.8533637!4d30.6155159!16s%2Fg%2F11ys20xnr4?entry=ttu&g_ep=EgoyMDI2MDIwOS4wIKXMDSoASAFQAw%3D%3D"
+    "googleMaps": "https://www.google.com/maps/place/PhD's+Veteriner+Klini%C4%9Fi+Antalya+Uzm.Dr.+Soner+%C3%87a%C4%9Fatay/@36.8533637,30.612941,17z/data=!3m1!4b1!4m6!3m5!1s0x14c393244cb1327f:0xb1c293ef9f3f841b!8m2!3d36.8533637!4d30.6155159!16s%2Fg%2F11ys20xnr4?entry=ttu&g_ep=EgoyMDI2MDIwOS4wIKXMDSoASAFQAw%3D%3D",
+    "googleScholar": "https://scholar.google.com/citations?user=xSkInw0AAAAJ&hl=en"
   },
   "navbar": {
     "home": "Ana Sayfa",
@@ -84,7 +85,6 @@
         "title": "Kedi ve köpeklerde travma sonrası rehabilitasyon",
         "desc": "Travma sonrası iyileşme sürecinde fizik tedavi, hidroterapi ve diğer rehabilitasyon hizmetleri."
       }
-
     ]
   },
   "reviews": {
