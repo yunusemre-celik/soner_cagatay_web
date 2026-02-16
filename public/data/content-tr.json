@@ -8,7 +8,7 @@
     "whatsappNumber": "905332264773",
     "whatsappMessage": "Merhaba, randevu almak istiyorum.",
     "phone": "+90 (533) 226 47 73",
-    "email": "info@brandname.com",
+    "email": "sonercagatay@hotmail.com",
     "address": "Liman, 13. Sk. No:8/1, 07130 Merkez/Antalya, Türkiye",
     "mapEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3192.545332782835!2d30.612941!3d36.8533637!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c393244cb1327f%3A0xb1c293ef9f3f841b!2sPhD's%20Veteriner%20Klini%C4%9Fi%20Antalya%20Uzm.Dr.%20Soner%20%C3%87a%C4%9Fatay!5e0!3m2!1str!2str!4v1771091339259!5m2!1str!2str"
   },
@@ -32,23 +32,59 @@
   },
   "services": {
     "title": "Neler Sunuyoruz?",
-    "subtitle": "İhtiyaçlarınıza özel profesyonel hizmetlerimiz.",
+    "subtitle": "Burada görünen hizmetlerimiz sadece başlangıç. Her evcil hayvanın ihtiyaçları farklıdır, bu yüzden özel talepleriniz için bizimle iletişime geçmekten çekinmeyin.",
     "items": [
       {
-        "icon": "🚀",
-        "title": "Hızlı Entegrasyon",
-        "desc": "Mevcut sistemlerinize tam uyumlu, kurulum gerektirmeyen hızlı çözümler."
+        "icon": "🩺",
+        "title": "Kedi ve köpeklerde Travma ve kırık yönetimi",
+        "desc": "Travma sonucu yaralanmış ve hatta kırık oluşan kedi ve köpeklerin travma öncesi fonksiyonel hallerine kavuşması önemlidir. Sürecin iyi yönetilememesi ve yanlış uygulamalar kemik ve yumuşak doku enfeksiyonlarına neden olur. İyileşme süresi uzar ve uzuv kaybı gibi istenmeyen durumlarla sonuçlanabilir."
       },
       {
-        "icon": "🛡️",
-        "title": "Güvenli Altyapı",
-        "desc": "Verileriniz endüstri standartlarında şifrelenir ve güvenle saklanır."
+        "icon": "✂️",
+        "title": "Kısırlaştırma Hizmetleri",
+        "desc": "Kedi ve köpeklerde kısırlaştırma önemli cerrahi bir operasyondur ve hafife alınmamalıdır. Operasyonun önemli komplikasyonları arasında dişilerde karında yumurta ( Ovarium ) parçası kalması hem kızgınlığın devam etmesine hem de sonrasında enfeksiyonlara neden olmaktadır. Erkek kedi ve köpeklerde ise testislerden birinin kasık kanalında ( inguinal kanal ) sıkışması ya da keseye inmeyerek karın içinde kalması operasyonu zorlaştırır."
       },
       {
-        "icon": "💡",
-        "title": "Yaratıcı Stratejiler",
-        "desc": "Markanızı öne çıkaracak modern tasarım ve pazarlama stratejileri."
+        "icon": "💉",
+        "title": "Koruyucu hekimlik ve danışmanlık",
+        "desc": "Aşı ve etkili paraziter uygulamalar kedi ve köpeklerinizi bir çok hastalıktan korur. Ayrıca hayvandan insana geçen zoonotik hastalıklar bu uygulamalar ile engellenir."
+      },
+      {
+        "icon": "🩹",
+        "title": "Cerrahi Operasyonlarda Profesyonellik",
+        "desc": "Cerrahi operasyonlarda minimum komplikasyon, hızlı ve fonksiyonel iyileşme ile şeffaf tedavi süreci."
+      },
+      {
+        "icon": "🩻",
+        "title": "Radyolojik ve Ultrasonografi Hizmetleri",
+        "desc": "Kapsamlı tanı için gelişmiş radyolojik ve ultrasonografi hizmetleri."
+      },
+      {
+        "icon": "🩺",
+        "title": "Dahiliye Hizmetleri",
+        "desc": "Kedi ve köpeklerde dahili hastalıkların tanı ve tedavisi."
+      },
+      {
+        "icon": "🦴",
+        "title": "Kedi ve köpeklerde topallık yönetimi",
+        "desc": "Kedi ve özellikle köpeklerde sıkça gördüğümüz ve topallığa neden olan diz kapağı çıkığı, çapraz bağ kopukları, kalça eklemi displazisi, eklem kireçlenmeleri gibi genetik ve gelişimsel hastalıkların tanı ve tedavisi."
+      },
+      {
+        "icon": "🧠",
+        "title": "Sinir cerrahisi",
+        "desc": "Boyun, sırt ve bel omurgası disk fıtıkları, sinir sistemi ile ilgili tümör cerrahisi, omurga kırıkları gibi komplike prosedürlerin tanı ve tadavisi."
+      },
+      {
+        "icon": "🩹",
+        "title": "Ağız, burun ve kulak bölgesi cerrahisi",
+        "desc": "Alt ve üst çene kırıkları, ağız bölgesi tümör cerrahisi, basık burunlu kedi ve köpeklerde üst solunum yolu cerrahileri (Rhinoplasty, Frontal sinüs ve Nasal kavite operasyonları), bulla osteotomisi ve total kulak yolu ablasyonu."
+      },
+      {
+        "icon": "🩺",
+        "title": "Kedi ve köpeklerde travma sonrası rehabilitasyon",
+        "desc": "Travma sonrası iyileşme sürecinde fizik tedavi, hidroterapi ve diğer rehabilitasyon hizmetleri."
       }
+
     ]
   },
   "reviews": {
@@ -75,7 +111,7 @@
   "about": {
     "title": "Hekimimiz Hakkında",
     "name": "Uzm.Dr. Soner Çağatay",
-    "bio": "2010 yılında Ankara Üniversitesi Veteriner Fakültesi'nden mezun oldum. Kedi ve köpek hastalıkları üzerine uzmanlaşarak, 10 yılı aşkın süredir minik dostlarımızın sağlığı için çalışıyorum. Kliniğimizde modern tıbbın tüm imkanlarını kullanarak, sevgi ve ilgiyle en iyi tedaviyi sunmayı amaçlıyoruz. Özellikle cerrahi operasyonlar ve dahiliye alanında tecrübe sahibiyim."
+    "bio": "Ankara Üniversitesi veteriner fakültesi’nden 2003 yılında mezun oldum. Aynı üniversitede 2006 yılında cerrahi anabilim dalında uzmanlık eğitimine başladım. 2007 yılında travmatoloji ve ortopedik cerrahi bilim dalına kadrolu asistan olarak atandım. Dr. Soner Çağatay olarak 2009 yılında bilim uzmanı 2015 yılında veteriner cerrahi doktoru ünvanını aldım. Bu süre içinde cerrahi operasyonları bizzat gerçekleştirdiğim ve cerrahi operasyon bilgisi anlamında yüksek tecrübeye sahibi oldum. Yine bu süre zarfında Almanya, Hollanda ve daha bir çok ülkede klinik ve bilimsel çalışmalara katıldım. Berlin Freie üniversitende Medical Training kursuna dahil oldum ve küçük hayvan cerrahi alanında bilgi ve becerilerini arttırdım. Doktora sonrası Ankara üniversitesinde post doktoral proje ve çalışmalar yürüttüm. 2017 yılında KKTC Yakın Doğu Üniversitesi’ne geçiş yaparak bilgi ve becerilerinimi Kıbrıslı hekim adayları arkadaşlarımız ile paylaştım. Aktif olarak cerrahi operasyonları yöneterek lisans düzeyinde travmatoloji ve ortopedik cerrahi dersini hem İngilizce hem de Türkçe olarak verdim. Veteriner Hekim Uzm. Dr. Soner Çağatay olarak 20 seneyi aşkın mesleki tecrübem ile PhD’s Veteriner Kliniği Antalya Liman mahalle’sinde hizmet vermeye devam ediyorum."
   },
   "contact": {
     "title": "İletişime Geçin",
