@@ -8,14 +8,15 @@
     "whatsappNumber": "905332264773",
     "whatsappMessage": "Hello, I would like to make an appointment.",
     "phone": "+90 (533) 226 47 73",
-    "email": "info@brandname.com",
-    "address": "Liman, 13. St. No:8/1, 07130 Center/Antalya, Turkey",
+    "email": "sonercagatay@hotmail.com",
+    "address": "Liman, 13. St. No:8/1, 07130 Konyaalti/Antalya, Turkey",
     "mapEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3192.545332782835!2d30.612941!3d36.8533637!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c393244cb1327f%3A0xb1c293ef9f3f841b!2sPhD's%20Veteriner%20Klini%C4%9Fi%20Antalya%20Uzm.Dr.%20Soner%20%C3%87a%C4%9Fatay!5e0!3m2!1str!2str!4v1771091339259!5m2!1str!2str"
   },
   "social": {
     "instagram": "https://www.instagram.com/sonercagatayofficial/",
     "facebook": "https://www.facebook.com/Dr.SonerCagatay/?locale=tr_TR",
-    "googleMaps": "https://maps.google.com/?q=PhD's%20Veteriner%20Klini%C4%9Fi%20Antalya%20Uzm.Dr.%20Soner%20%C3%87a%C4%9Fatay"
+    "googleMaps": "https://maps.google.com/?q=PhD's%20Veteriner%20Klini%C4%9Fi%20Antalya%20Uzm.Dr.%20Soner%20%C3%87a%C4%9Fatay",
+    "googleScholar": "https://scholar.google.com/citations?user=xSkInw0AAAAJ&hl=en"
   },
   "navbar": {
     "home": "Home",
@@ -25,29 +26,64 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "The Best for  <br><span class='text-primary'>Our Friends</span>",
+    "title": "The Best for <br><span class='text-primary'>Our Friends</span>",
     "subtitle": "PhD's Veterinary Clinic, managed by Specialist Dr. Soner Çağatay, is a clinic that offers modern and reliable veterinary services. We are here to provide the best care for the health and happiness of your pets.",
     "ctaText": "Discover Services",
     "ctaLink": "#services"
   },
   "services": {
     "title": "What Do We Offer?",
-    "subtitle": "Professional services tailored to your needs.",
+    "subtitle": "The services shown here are just the beginning. Every pet has different needs, so please feel free to contact us for your special requests.",
     "items": [
       {
-        "icon": "🚀",
-        "title": "Fast Integration",
-        "desc": "Quick solutions that are fully compatible with your existing systems, requiring no installation."
+        "icon": "🩺",
+        "title": "Trauma and fracture management",
+        "desc": "It is crucial for cats and dogs injured by trauma to regain their pre-trauma functional state. Poor management of the process leads to bone and soft tissue infections (osteomyelitis). Healing time prolongs and may result in unwanted outcomes like limb loss."
       },
       {
-        "icon": "🛡️",
-        "title": "Secure Infrastructure",
-        "desc": "Your data is encrypted and safely stored according to industry standards."
+        "icon": "✂️",
+        "title": "Spaying and Neutering Services",
+        "desc": "Neutering is a major surgical operation. Complications include Ovarian Remnant Syndrome in females causing continued heat and infection. in males, undescended testicles (cryptorchidism) in the inguinal canal or abdomen make the operation more complex."
       },
       {
-        "icon": "💡",
-        "title": "Creative Strategies",
-        "desc": "Modern design and marketing strategies that will make your brand stand out."
+        "icon": "💉",
+        "title": "Preventive medicine and consultancy",
+        "desc": "Vaccines and effective antiparasitic applications protect your cats and dogs from many diseases. Also, zoonotic diseases transmitted from animals to humans are prevented by these applications."
+      },
+      {
+        "icon": "🩹",
+        "title": "Professionalism in Surgical Operations",
+        "desc": "Transparent treatment process with minimum complications, fast and functional recovery in surgical operations."
+      },
+      {
+        "icon": "🩻",
+        "title": "Radiology and Ultrasonography Services",
+        "desc": "Advanced radiological and ultrasonography services for comprehensive diagnosis."
+      },
+      {
+        "icon": "🩺",
+        "title": "Internal Medicine Services",
+        "desc": "Diagnosis and treatment of internal diseases in cats and dogs."
+      },
+      {
+        "icon": "🦴",
+        "title": "Lameness management",
+        "desc": "Diagnosis and treatment of genetic and developmental diseases causing lameness such as patellar luxation, cruciate ligament ruptures, hip dysplasia, and joint calcification."
+      },
+      {
+        "icon": "🧠",
+        "title": "Neurosurgery",
+        "desc": "Diagnosis and treatment of complicated procedures such as cervical, thoracic and lumbar disc herniations (IVDD), nervous system tumor surgery, and spinal fractures."
+      },
+      {
+        "icon": "🩹",
+        "title": "Mouth, nose and ear surgery",
+        "desc": "Jaw fractures, oral tumor surgery, upper respiratory tract surgeries in brachycephalic breeds (Rhinoplasty, Frontal sinus, etc.), bulla osteotomy, and total ear canal ablation (TECA)."
+      },
+      {
+        "icon": "🩺",
+        "title": "Post-traumatic rehabilitation",
+        "desc": "Physical therapy, hydrotherapy, and other rehabilitation services during the post-trauma recovery process."
       }
     ]
   },
@@ -75,11 +111,11 @@
   "about": {
     "title": "About Our Doctor",
     "name": "Specialist Dr. Soner Çağatay",
-    "bio": "I graduated from Ankara University Faculty of Veterinary Medicine in 2010. Specializing in cat and dog diseases, I have been working for the health of our little friends for over 10 years. In our clinic, we aim to provide the best treatment with love and care using all the possibilities of modern medicine. I have experience especially in surgical operations and internal medicine."
+    "bio": "I graduated from Ankara University Faculty of Veterinary Medicine in 2003. I started my specialization training in the Department of Surgery at the same university in 2006. In 2007, I was appointed as a staff assistant in the Department of Traumatology and Orthopedic Surgery. As Dr. Soner Çağatay, I received the title of Science Specialist in 2009 and Doctor of Veterinary Surgery (PhD) in 2015. During this time, I personally performed surgical operations and gained high experience in surgical operation knowledge. Also during this period, I participated in clinical and scientific studies in Germany, the Netherlands, and many other countries. I attended the Medical Training course at Berlin Freie University and increased my knowledge and skills in small animal surgery. Post-doctorate, I carried out post-doctoral projects and studies at Ankara University. In 2017, I transferred to Near East University in the TRNC and shared my knowledge and skills with Cypriot veterinarian candidates. I actively managed surgical operations and taught the undergraduate Traumatology and Orthopedic Surgery course in both English and Turkish. As Veterinary Specialist Dr. Soner Çağatay, I continue to serve at PhD’s Veterinary Clinic in Antalya Liman Neighborhood with over 20 years of professional experience."
   },
   "contact": {
     "title": "Get in Touch",
-    "subtitle": "Feel free to contact us for your  questions.",
+    "subtitle": "Feel free to contact us for your questions.",
     "workingHours": {
       "title": "Working Hours",
       "weekdays": "10:00 - 20:00",
