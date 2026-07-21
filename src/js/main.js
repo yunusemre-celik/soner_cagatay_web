@@ -20,7 +20,7 @@ window.changeLanguage = function(lang) {
     updateElement('nav-contact', 'Contact');
     
     updateElement('hero-contact-text', 'Contact Us');
-    updateElement('about-badge', 'Expert Staff');
+    updateElement('about-badge', 'Expert Surgeon');
     updateElement('reviews-cta-text', 'Rate Us');
     updateElement('reviews-loading-text', 'Loading reviews...');
     updateElement('footer-rights', 'All Rights Reserved.');
@@ -34,7 +34,7 @@ window.changeLanguage = function(lang) {
     updateElement('nav-contact', 'Контакты');
 
     updateElement('hero-contact-text', 'Связаться с нами');
-    updateElement('about-badge', 'Экспертный персонал');
+    updateElement('about-badge', 'Опытный хирург');
     updateElement('reviews-cta-text', 'Оцените нас');
     updateElement('reviews-loading-text', 'Загрузка отзывов...');
     updateElement('footer-rights', 'Все права защищены.');
@@ -48,7 +48,7 @@ window.changeLanguage = function(lang) {
     updateElement('nav-contact', 'İletişim');
 
     updateElement('hero-contact-text', 'Bize Ulaşın');
-    updateElement('about-badge', 'Uzman Kadro');
+    updateElement('about-badge', 'Uzman Hekim');
     updateElement('reviews-cta-text', 'Bizi Değerlendirin');
     updateElement('reviews-loading-text', 'Yorumlar yükleniyor...');
     updateElement('footer-rights', 'Tüm Hakları Saklıdır.');
