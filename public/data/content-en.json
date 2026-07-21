@@ -121,5 +121,85 @@
       "weekdays": "10:00 - 20:00",
       "weekend": "13:00 - 19:00"
     }
+  },
+  "publications": {
+    "title": "Academic Research & Articles",
+    "subtitle": "International scientific publications by Specialist Dr. Soner Çağatay in the field of small animal surgery, orthopedics, and traumatology.",
+    "items": [
+      {
+        "title": "Clinical and Radiographical Assessments of Treatment of Salter-Harris Type Fractures in Cat and Dog",
+        "originalTitle": "Clinical and radiographical assessments of treatment of Salter-Harris type fractures in cat and dog",
+        "journal": "Journal of Ankara University Faculty of Veterinary Medicine",
+        "year": "2013",
+        "desc": "A study investigating the clinical and radiological success of surgical and conservative treatments of growth plate (Salter-Harris) fractures in cats and dogs.",
+        "link": "https://scholar.google.com/citations?user=xSkInw0AAAAJ&hl=en"
+      },
+      {
+        "title": "Clinical and Radiological Evaluation of Triple Tibial Osteotomy Technique for Treatment of Ligamentum Cruciatum Anterior Rupture in Dogs",
+        "originalTitle": "Clinical and radiological evaluation of triple tibial osteotomy technique for treatment of ligamentum cruciatum anterior rupture in dogs",
+        "journal": "Journal of the Turkish Veterinary Medical Association",
+        "year": "2017",
+        "desc": "Clinical follow-up and assessment of the modern Triple Tibial Osteotomy (TTO) technique applied in cranial cruciate ligament ruptures in dogs.",
+        "link": "https://scholar.google.com/citations?user=xSkInw0AAAAJ&hl=en"
+      },
+      {
+        "title": "Dorsal Scapular Luxation and its Surgical Treatment in a Cat",
+        "originalTitle": "Dorsal scapular luxation and its surgical treatment in a cat",
+        "journal": "Journal of Turkish Veterinary Medical Society",
+        "year": "2018",
+        "desc": "A case report involving the orthopedic wiring and surgical stabilization of traumatic dorsal scapular luxation in a cat, resulting in successful recovery.",
+        "link": "https://scholar.google.com/citations?user=xSkInw0AAAAJ&hl=en"
+      },
+      {
+        "title": "Removal of a Tracheal Foreign Body by Intercostal Thoracotomy in a Cat",
+        "originalTitle": "Removal of a tracheal foreign body by intercostal thoracotomy in a cat",
+        "journal": "Veterinární Medicína",
+        "year": "2018",
+        "desc": "A case report describing the successful extraction of a foreign body from a cat's trachea using advanced thoracic surgery (intercostal thoracotomy).",
+        "link": "https://scholar.google.com/citations?user=xSkInw0AAAAJ&hl=en"
+      },
+      {
+        "title": "Physiotherapy in Dogs with Hip Osteoarthritis – Effects On Pain, Muscle and Lameness",
+        "originalTitle": "Physiotherapy in Dogs with Hip Osteoarthritis – Effects On Pain, Muscle and Lameness",
+        "journal": "Turkish Journal of Physiotherapy and Rehabilitation",
+        "year": "2024",
+        "desc": "A randomized controlled trial measuring the clinical efficacy of physical therapy, hydrotherapy, and exercise programs in managing pain and mobility in dogs with hip arthritis.",
+        "link": "https://scholar.google.com/citations?user=xSkInw0AAAAJ&hl=en"
+      },
+      {
+        "title": "Hypertrophic Osteopathy Associated With Intrathoracic Masses in 5 Dogs and Review of the Literature",
+        "originalTitle": "Hypertrophic Osteopathy Associated With Intrathoracic Masses in 5 Dogs and Review of the Literature",
+        "journal": "Veterinary Medicine International",
+        "year": "2026",
+        "desc": "Diagnosis and clinical follow-up of Marie-Bamberger syndrome (painful bone thickening in limbs) secondary to lung tumors and chest masses in dogs.",
+        "link": "https://scholar.google.com/citations?user=xSkInw0AAAAJ&hl=en"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers to the most common questions pet owners ask about surgeries, treatments, and our clinic.",
+    "items": [
+      {
+        "question": "Do you offer emergency surgery services in your clinic?",
+        "answer": "Yes, emergency surgeries for trauma, road accidents, falls, and fractures are performed by our surgical team led by Specialist Dr. Soner Çağatay."
+      },
+      {
+        "question": "What should be considered after spaying or neutering surgery in cats and dogs?",
+        "answer": "A quiet and warm resting area should be provided for the first 24 hours. Prescribed pain relief and protective medication must be given on time, and a collar (E-collar) must be worn to prevent licking or damaging the sutures."
+      },
+      {
+        "question": "Can patellar luxation (kneecap dislocation) be treated without surgery?",
+        "answer": "In mild cases (Grade 1 and sometimes Grade 2), the clinical condition can be stabilized with weight management, muscle-strengthening physiotherapy, hydrotherapy, and joint supplements. However, for advanced dislocation and lameness, surgery is the definitive solution."
+      },
+      {
+        "question": "Which surgical methods are used for cranial cruciate ligament (ACL) rupture in dogs?",
+        "answer": "Depending on the dog's weight, age, and knee biomechanics, TPLO, TTO (Triple Tibial Osteotomy), or lateral suture techniques are performed. Dr. Soner Çağatay has extensive experience in the TTO technique which provides excellent biomechanical recovery."
+      },
+      {
+        "question": "Do you provide post-operative physiotherapy services at your clinic?",
+        "answer": "Yes, we offer customized physiotherapy and rehabilitation programs after orthopedic and neurological surgeries to prevent joint stiffness, maintain muscle mass, and ensure fast functional recovery."
+      }
+    ]
   }
 }

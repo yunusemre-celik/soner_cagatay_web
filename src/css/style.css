@@ -52,3 +52,8 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #94A3B8;
 }
+
+/* Hero section background */
+.hero-bg {
+  background-image: url('/src/assets/background.webp');
+}

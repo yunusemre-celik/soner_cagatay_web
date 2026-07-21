@@ -15,6 +15,8 @@ window.changeLanguage = function(lang) {
     updateElement('nav-services', 'Services');
     updateElement('nav-reviews', 'Reviews');
     updateElement('nav-about', 'About Us');
+    updateElement('nav-publications', 'Academic');
+    updateElement('nav-faq', 'FAQ');
     updateElement('nav-contact', 'Contact');
     
     updateElement('hero-contact-text', 'Contact Us');
@@ -27,6 +29,8 @@ window.changeLanguage = function(lang) {
     updateElement('nav-services', 'Услуги');
     updateElement('nav-reviews', 'Отзывы');
     updateElement('nav-about', 'О нас');
+    updateElement('nav-publications', 'Публикации');
+    updateElement('nav-faq', 'FAQ');
     updateElement('nav-contact', 'Контакты');
 
     updateElement('hero-contact-text', 'Связаться с нами');
@@ -39,6 +43,8 @@ window.changeLanguage = function(lang) {
     updateElement('nav-services', 'Hizmetler');
     updateElement('nav-reviews', 'Yorumlar');
     updateElement('nav-about', 'Hakkımızda');
+    updateElement('nav-publications', 'Akademik');
+    updateElement('nav-faq', 'SSS');
     updateElement('nav-contact', 'İletişim');
 
     updateElement('hero-contact-text', 'Bize Ulaşın');
@@ -157,12 +163,95 @@ function renderPage(data) {
     updateElement('about-bio', data.about.bio);
   }
 
+  // 6.5 Akademik Çalışmalar (Yeni)
+  if (data.publications) {
+    updateElement('publications-title', data.publications.title);
+    updateElement('publications-subtitle', data.publications.subtitle);
+    const pubGrid = document.getElementById('publications-grid');
+    if (pubGrid && data.publications.items) {
+      pubGrid.innerHTML = '';
+      data.publications.items.forEach(pub => {
+        const card = document.createElement('div');
+        card.className = "bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition-all border border-gray-100 flex flex-col justify-between";
+        
+        let linkLabel = currentLang === 'ru' ? 'Посмотреть на Google Scholar' : (currentLang === 'en' ? 'View on Google Scholar' : 'Google Scholar\'da İncele');
+
+        card.innerHTML = `
+          <div>
+            <div class="flex flex-wrap items-center gap-2 mb-4">
+              <span class="px-2.5 py-0.5 text-xs font-semibold rounded bg-primary/10 text-primary">${pub.year}</span>
+              <span class="text-xs text-text-muted italic">${pub.journal}</span>
+            </div>
+            <h3 class="text-lg font-bold text-text-main mb-2">${pub.title}</h3>
+            <p class="text-xs text-text-muted mb-4 font-mono">${pub.originalTitle}</p>
+            <p class="text-text-muted leading-relaxed mb-6">${pub.desc}</p>
+          </div>
+          <div class="mt-auto">
+            <a href="${pub.link}" target="_blank" rel="noopener noreferrer" class="text-sm font-semibold text-primary hover:text-secondary transition-colors inline-flex items-center gap-1">
+              ${linkLabel} <span>→</span>
+            </a>
+          </div>
+        `;
+        pubGrid.appendChild(card);
+      });
+    }
+  }
+
+  // 6.6 Sıkça Sorulan Sorular (Yeni)
+  if (data.faq) {
+    updateElement('faq-title', data.faq.title);
+    updateElement('faq-subtitle', data.faq.subtitle);
+    const faqContainer = document.getElementById('faq-container');
+    if (faqContainer && data.faq.items) {
+      faqContainer.innerHTML = '';
+      data.faq.items.forEach((item, index) => {
+        const wrapper = document.createElement('div');
+        wrapper.className = "border border-gray-100 rounded-xl bg-white overflow-hidden shadow-sm";
+        
+        const btn = document.createElement('button');
+        btn.className = "w-full text-left px-6 py-4 font-semibold text-text-main flex items-center justify-between gap-4 hover:bg-gray-50 transition-colors focus:outline-none";
+        btn.innerHTML = `
+          <span>${item.question}</span>
+          <span class="text-primary text-xl font-bold transition-transform duration-300" id="faq-icon-${index}">+</span>
+        `;
+        
+        const ans = document.createElement('div');
+        ans.id = `faq-ans-${index}`;
+        ans.className = "hidden px-6 py-4 border-t border-gray-100 text-text-muted leading-relaxed bg-gray-50/50";
+        ans.innerHTML = item.answer;
+
+        btn.addEventListener('click', () => {
+          const isHidden = ans.classList.toggle('hidden');
+          const icon = document.getElementById(`faq-icon-${index}`);
+          if (icon) {
+            icon.innerText = isHidden ? '+' : '−';
+            icon.style.transform = isHidden ? 'rotate(0deg)' : 'rotate(180deg)';
+          }
+        });
+
+        wrapper.appendChild(btn);
+        wrapper.appendChild(ans);
+        faqContainer.appendChild(wrapper);
+      });
+    }
+  }
+
   // 7. İletişim Bölümü
   updateElement('contact-title', data.contact.title);
   updateElement('contact-subtitle', data.contact.subtitle);
   updateElement('contact-address', data.general.address);
   updateElement('contact-phone', data.general.phone);
-  updateElement('contact-email', data.general.email);
+  
+  // E-posta Adresi Obfuscation (Spam Engelleyici)
+  const emailElement = document.getElementById('contact-email');
+  if (emailElement && data.general.email) {
+    const parts = data.general.email.split('@');
+    if (parts.length === 2) {
+      emailElement.innerHTML = `<a href="mailto:${parts[0]}@${parts[1]}" class="hover:text-primary transition-colors font-semibold">${parts[0]}@${parts[1]}</a>`;
+    } else {
+      emailElement.innerText = data.general.email;
+    }
+  }
 
   if (data.contact.workingHours) {
     updateElement('hours-title', data.contact.workingHours.title);

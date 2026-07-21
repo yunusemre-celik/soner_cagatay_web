@@ -121,5 +121,85 @@
       "weekdays": "10:00 - 20:00",
       "weekend": "13:00 - 19:00"
     }
+  },
+  "publications": {
+    "title": "Akademik Çalışmalar ve Makaleler",
+    "subtitle": "Uzm. Dr. Soner Çağatay'ın küçük hayvan cerrahisi, ortopedi ve travmatoloji alanındaki uluslararası bilimsel yayınları.",
+    "items": [
+      {
+        "title": "Kedi ve Köpeklerde Salter-Harris Kırıklarının Tedavisinde Klinik ve Radyografik Değerlendirme",
+        "originalTitle": "Clinical and radiographical assessments of treatment of Salter-Harris type fractures in cat and dog",
+        "journal": "Ankara Üniversitesi Veteriner Fakültesi Dergisi",
+        "year": "2013",
+        "desc": "Kedi ve köpeklerde büyüme plağı (Salter-Harris) kırıklarının cerrahi ve muhafazakar yöntemlerle tedavisinin klinik ve radyolojik başarısını inceleyen araştırma.",
+        "link": "https://scholar.google.com/citations?user=xSkInw0AAAAJ&hl=en"
+      },
+      {
+        "title": "Köpeklerde Ön Çapraz Bağ Kopuklarının Tedavisinde Üçlü Tibial Osteotomi (TTO) Tekniğinin Klinik ve Radyolojik Değerlendirmesi",
+        "originalTitle": "Clinical and radiological evaluation of triple tibial osteotomy technique for treatment of ligamentum cruciatum anterior rupture in dogs",
+        "journal": "Veteriner Hekimler Derneği Dergisi",
+        "year": "2017",
+        "desc": "Köpeklerde diz eklemi instabilitesine ve topallığa yol açan ön çapraz bağ kopmalarında uygulanan modern Üçlü Tibial Osteotomi (TTO) ameliyat tekniğinin klinik takibi.",
+        "link": "https://scholar.google.com/citations?user=xSkInw0AAAAJ&hl=en"
+      },
+      {
+        "title": "Bir Kedide Skapula (Kürek Kemiği) Üst Çıkığı ve Cerrahi Tedavisi",
+        "originalTitle": "Dorsal scapular luxation and its surgical treatment in a cat",
+        "journal": "Journal of Turkish Veterinary Medical Society",
+        "year": "2018",
+        "desc": "Travmaya bağlı olarak kürek kemiği yerinden çıkan bir kedinin, ortopedik teller ve cerrahi sabitleme ile eski fonksiyonel sağlığına kavuşturulmasını içeren olgu sunumu.",
+        "link": "https://scholar.google.com/citations?user=xSkInw0AAAAJ&hl=en"
+      },
+      {
+        "title": "Bir Kedide Göğüs Kafesi Açılarak Trakeal Yabancı Cismin Çıkarılması",
+        "originalTitle": "Removal of a tracheal foreign body by intercostal thoracotomy in a cat",
+        "journal": "Veterinární Medicína",
+        "year": "2018",
+        "desc": "Soluk borusuna yabancı cisim kaçan bir kedide, ileri düzey göğüs cerrahisi (interkostal torakotomi) uygulanarak yabancı cismin başarılı bir şekilde uzaklaştırılması.",
+        "link": "https://scholar.google.com/citations?user=xSkInw0AAAAJ&hl=en"
+      },
+      {
+        "title": "Kalça Kireçlenmesi Olan Köpeklerde Fizik Tedavi ve Rehabilitasyon Uygulamalarının Ağrı, Kas ve Topallık Üzerine Etkileri",
+        "originalTitle": "Physiotherapy in Dogs with Hip Osteoarthritis – Effects On Pain, Muscle and Lameness",
+        "journal": "Türk Fizyoterapi ve Rehabilitasyon Dergisi",
+        "year": "2024",
+        "desc": "Köpeklerde kalça kireçlenmesine bağlı gelişen kronik ağrı ve fonksiyon kayıplarında uygulanan fizik tedavi, hidroterapi ve egzersiz programlarının etkilerini ölçen çalışma.",
+        "link": "https://scholar.google.com/citations?user=xSkInw0AAAAJ&hl=en"
+      },
+      {
+        "title": "5 Köpekte Göğüs İçi Kitlelerle İlişkili Hipertrofik Osteopati ve Literatür Değerlendirmesi",
+        "originalTitle": "Hypertrophic Osteopathy Associated With Intrathoracic Masses in 5 Dogs and Review of the Literature",
+        "journal": "Veterinary Medicine International",
+        "year": "2026",
+        "desc": "Akciğer tümörü ve göğüs içi lezyonlara sekonder olarak bacak kemiklerinde ağrılı kalınlaşmalarla karakterize Marie-Bamberger sendromunun tanı ve takibi.",
+        "link": "https://scholar.google.com/citations?user=xSkInw0AAAAJ&hl=en"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "Evcil hayvan sahiplerinin ameliyatlar, tedaviler ve kliniğimiz hakkında en çok sorduğu soruların yanıtları.",
+    "items": [
+      {
+        "question": "Kliniğinizde acil cerrahi hizmeti sunuluyor mu?",
+        "answer": "Evet, kliniğimizde travma, trafik kazası, yüksekten düşme ve kırık durumlarında acil cerrahi müdahaleler Uzm. Dr. Soner Çağatay liderliğindeki cerrahi ekibimiz tarafından gerçekleştirilmektedir."
+      },
+      {
+        "question": "Kedi ve köpeklerde kısırlaştırma operasyonu sonrası nelere dikkat edilmelidir?",
+        "answer": "Ameliyat sonrasında evcil dostumuz için 24 saat sessiz ve sıcak bir dinlenme alanı oluşturulmalıdır. Hekimimizin reçete ettiği ağrı kesici ve koruyucu ilaçlar aksatılmadan verilmeli, dikişlerin yalanıp zarar görmemesi için mutlaka yakalık takılmalıdır."
+      },
+      {
+        "question": "Diz kapağı çıkığı (Patella Luksasyonu) ameliyatsız tedavi edilebilir mi?",
+        "answer": "Hafif vakalarda (Evre 1 ve bazen Evre 2) kilo kontrolü, kas güçlendirici fizik tedavi, hidroterapi ve eklem takviyeleri ile klinik durum stabil tutulabilir. Ancak belirgin topallama, eklem aşınması ve ileri evre çıkıklarda kalıcı çözüm cerrahi operasyondur."
+      },
+      {
+        "question": "Köpeklerde ön çapraz bağ kopmasında hangi cerrahi yöntemler uygulanıyor?",
+        "answer": "Köpeğinizin kilosuna, yaşına ve diz yapısına göre TPLO, TTO (Üçlü Tibial Osteotomi) veya lateral dikiş (yapay bağ) teknikleri uygulanmaktadır. Uzm. Dr. Soner Çağatay, biyomekanik düzeltmeler sağlayan TTO tekniğinde yüksek tecrübeye sahiptir."
+      },
+      {
+        "question": "Kliniğinizde ameliyat sonrası fizik tedavi hizmeti var mı?",
+        "answer": "Evet, kliniğimizde ortopedik ve nörolojik cerrahilerden sonra eklem sertliğini önlemek, kas kütlesini korumak ve hızlı fonksiyonel iyileşme sağlamak için kişiye özel fizik tedavi ve rehabilitasyon programları sunmaktayız."
+      }
+    ]
   }
 }

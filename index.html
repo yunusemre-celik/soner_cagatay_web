@@ -7,6 +7,24 @@
     <title>PhD's Veteriner Kliniği | Uzm.Dr. Soner Çağatay</title>
     <meta name="description" content="Antalya Liman'da Uzm. Dr. Soner Çağatay yönetiminde cerrahi, ortopedi ve dahiliye hizmetleri. Dostlarınız için uzman veteriner bakımı." />
     
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://phdsveteriner.com.tr/" />
+
+    <!-- Hreflang Tags for Multi-language SEO -->
+    <link rel="alternate" hreflang="tr" href="https://phdsveteriner.com.tr/" />
+    <link rel="alternate" hreflang="en" href="https://phdsveteriner.com.tr/?lang=en" />
+    <link rel="alternate" hreflang="ru" href="https://phdsveteriner.com.tr/?lang=ru" />
+    <link rel="alternate" hreflang="x-default" href="https://phdsveteriner.com.tr/" />
+
+    <!-- Google tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    
     <link rel="icon" type="image/png" href="/src/assets/logo.png" />
 
     <meta property="og:type" content="website" />
@@ -86,13 +104,15 @@
             <li><a id="nav-services" href="#services" class="block py-2 px-3 text-text-main rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary md:p-0">Hizmetler</a></li>
             <li><a id="nav-reviews" href="#reviews" class="block py-2 px-3 text-text-main rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary md:p-0">Yorumlar</a></li>
             <li><a id="nav-about" href="#about" class="block py-2 px-3 text-text-main rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary md:p-0">Hakkımızda</a></li>
+            <li><a id="nav-publications" href="#publications" class="block py-2 px-3 text-text-main rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary md:p-0">Akademik</a></li>
+            <li><a id="nav-faq" href="#faq" class="block py-2 px-3 text-text-main rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary md:p-0">SSS</a></li>
             <li><a id="nav-contact" href="#contact" class="block py-2 px-3 text-text-main rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary md:p-0">İletişim</a></li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <section id="hero" class="relative mt-20 py-20 lg:py-32 overflow-hidden min-h-[calc(100vh-5rem)] flex items-center bg-cover bg-top" style="background-image: url('/src/assets/background.webp');">
+    <section id="hero" class="relative mt-20 py-20 lg:py-32 overflow-hidden min-h-[calc(100vh-5rem)] flex items-center bg-cover bg-top hero-bg">
       <div class="absolute inset-0 bg-gray-900/60 z-0"></div>
       <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 relative z-10 w-full text-center">
           <h1 id="hero-title" class="text-4xl font-extrabold text-white sm:text-6xl animate-fade-in">Dostlarımız İçin <br><span class='text-primary'>En İyisi</span></h1>
@@ -100,7 +120,7 @@
           <div class="mt-10 flex items-center justify-center gap-x-6 animate-fade-in">
             <a id="hero-cta" href="#services" class="rounded-md bg-primary px-3.5 py-2.5 text-sm font-semibold text-white shadow-lg hover:bg-secondary transition-all transform hover:-translate-y-1">Hizmetleri Keşfet</a>
             <a href="#contact" class="text-sm font-semibold text-white hover:text-primary transition-colors">
-              <span id="hero-contact-text">Bize Ulaşın</span> <span aria-hidden="true">→</span>
+               <span id="hero-contact-text">Bize Ulaşın</span> <span aria-hidden="true">→</span>
             </a>
           </div>
       </div>
@@ -163,6 +183,32 @@
         </div>
     </section>
 
+    <!-- Akademik Çalışmalar Bölümü (Yeni) -->
+    <section id="publications" class="py-24 bg-surface border-t border-gray-100">
+      <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+          <h2 id="publications-title" class="text-3xl font-bold text-text-main sm:text-4xl">Akademik Çalışmalar</h2>
+          <p id="publications-subtitle" class="mt-4 text-lg text-text-muted">Uzm. Dr. Soner Çağatay'ın bilimsel makaleleri ve veteriner cerrahi alanındaki araştırmaları.</p>
+        </div>
+        <div id="publications-grid" class="grid grid-cols-1 gap-8 md:grid-cols-2">
+          <!-- JS tarafından dinamik olarak yüklenecektir -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Sıkça Sorulan Sorular Bölümü (Yeni) -->
+    <section id="faq" class="py-24 bg-background border-t border-gray-100">
+      <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+          <h2 id="faq-title" class="text-3xl font-bold text-text-main sm:text-4xl">Sıkça Sorulan Sorular</h2>
+          <p id="faq-subtitle" class="mt-4 text-lg text-text-muted">Kliniğimiz, ameliyat süreçleri ve hayvan sağlığı hakkında merak edilenler.</p>
+        </div>
+        <div id="faq-container" class="max-w-3xl mx-auto space-y-4">
+          <!-- JS tarafından dinamik olarak yüklenecektir -->
+        </div>
+      </div>
+    </section>
+
     <section id="contact" class="py-24 bg-background">
       <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -171,7 +217,7 @@
             <dl class="space-y-6 text-base text-text-main">
               <div class="flex items-start">📍<dd id="contact-address" class="ml-4">Liman, 13. Sk. No:8/1, 07130 Merkez/Antalya, Türkiye</dd></div>
               <div class="flex items-center">📞<dd id="contact-phone" class="ml-4 font-semibold text-primary">+90 (533) 226 47 73</dd></div>
-              <div class="flex items-center">✉️<dd id="contact-email" class="ml-4">sonercagatay@hotmail.com</dd></div>
+              <div class="flex items-center">✉️<dd id="contact-email" class="ml-4"></dd></div>
               <div class="flex items-start">🕒
                 <div class="ml-4">
                     <dt id="hours-title" class="font-semibold mb-1">Çalışma Saatleri</dt>
@@ -185,7 +231,7 @@
             <div id="social-links-container" class="flex items-center gap-4 mt-8 pt-6 border-t border-gray-200"></div>
           </div>
           <div class="relative h-96 w-full rounded-2xl overflow-hidden shadow-xl">
-            <iframe id="google-map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3192.545332782835!2d30.612941!3d36.8533637!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c393244cb1327f%3A0xb1c293ef9f3f841b!2sPhD's%20Veteriner%20Klini%C4%9Fi%20Antalya%20Uzm.Dr.%20Soner%20%C3%87a%C4%9Fatay!5e0!3m2!1str!2str!4v1771091339259!5m2!1str!2str" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe id="google-map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3192.545332782835!2d30.612941!3d36.8533637!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c393244cb1327f%3A0xb1c293ef9f3f841b!2sPhD's%20Veteriner%20Klini%C4%9Fi%20Antalya%20Uzm.Dr.+Soner+%C3%87a%C4%9Fatay!5e0!3m2!1str!2str!4v1771091339259!5m2!1str!2str" width="100%" height="100%" class="border-0" allowfullscreen="" loading="lazy"></iframe>
           </div>
         </div>
       </div>
