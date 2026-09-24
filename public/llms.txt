@@ -1,6 +1,13 @@
 # PhD's Veteriner Kliniği
 
-Veteriner Cerrah ve Ortopedi Uzmanı Uzm. Dr. Soner Çağatay tarafından yönetilen, Antalya Liman mahallesinde bulunan modern veteriner kliniği.
+> Uzm. Dr. Soner Çağatay yönetiminde Antalya Liman'da hizmet veren, ortopedi, travmatoloji, sinir cerrahisi ve ileri veteriner cerrahi kliniği.
+
+## Önemli Bağlantılar
+- [Hizmetlerimiz](https://phdsveteriner.com.tr/#services): Cerrahi, travma yönetimi, ortopedi ve nöroşirürji hizmetlerimiz
+- [Hekimimiz Hakkında](https://phdsveteriner.com.tr/#about): Uzm. Dr. Soner Çağatay özgeçmişi, doktora (PhD) eğitimi ve klinik tecrübesi
+- [Akademik Yayınlar](https://phdsveteriner.com.tr/#publications): Uluslararası hakemli dergilerde yayımlanan bilimsel makaleler
+- [Sıkça Sorulan Sorular](https://phdsveteriner.com.tr/#faq): Cerrahi operasyonlar, acil durumlar ve tedavi süreçleri
+- [İletişim & Konum](https://phdsveteriner.com.tr/#contact): Adres, randevu telefonu ve çalışma saatleri
 
 ## İletişim Bilgileri
 - **Telefon:** +90 (533) 226 47 73

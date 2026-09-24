@@ -58,6 +58,18 @@ window.changeLanguage = function(lang) {
   loadContent();
 };
 
+window.toggleFaq = function(index) {
+  const ans = document.getElementById(`faq-ans-${index}`);
+  const icon = document.getElementById(`faq-icon-${index}`);
+  if (ans) {
+    const isHidden = ans.classList.toggle('hidden');
+    if (icon) {
+      icon.innerText = isHidden ? '+' : '−';
+      icon.style.transform = isHidden ? 'rotate(0deg)' : 'rotate(180deg)';
+    }
+  }
+};
+
 // --- İÇERİK YÜKLEME ---
 async function loadContent() {
   try {
